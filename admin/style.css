@@ -1,0 +1,41 @@
+body{
+	font-family:Arial;
+}
+.menu ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.menu ul li a{
+	display:block;
+	list-style:none;
+	background:#000;
+	color:#fff;
+	text-decoration:none;
+	margin:2px;
+	padding:6px;
+}
+.menu ul li a:hover{
+	background:#ff6600;
+	color:#000;
+}
+
+.content{
+	padding:10px;
+}
+.content h3{
+	display:block;
+	border-bottom:1px solid #000;
+	margin-top:0px;
+	padding-bottom:5px;
+}
+.content label{
+	display:block;
+	float:left;
+	width:160px;
+}
+.content form{
+	border:1px solid #ebebeb;
+	line-height:200%;
+	padding:10px;
+}
